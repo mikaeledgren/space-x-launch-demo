@@ -1,0 +1,29 @@
+@import '../../../variables.pcss';
+
+.inverted .search-container {
+  border-bottom: 3px solid white;
+  .search-input {
+    caret-color: white;
+    color: white;
+  }
+}
+
+.search-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 3px solid black;
+  font-family: var(--sofiaProFontFamily);
+
+  .search-icon {
+    margin: 10px 15px 10px 0;
+    cursor: pointer;
+  }
+  .search-input {
+    width: 100%;
+    border: none;
+    font-size: 1rem;
+    background: transparent;
+    color: var(--darkColor);
+  }
+}

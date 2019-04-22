@@ -1,0 +1,32 @@
+@import '../../../variables.pcss';
+
+.inverted .link-container .link {
+  color: white;
+  &:hover {
+    border-bottom: 3px solid white;
+  }
+
+  &.active {
+    border-bottom: 3px solid white;
+  }
+}
+
+.link-container {
+  margin: 0 0.5em;
+  padding: 0.1em 0 0.3em;
+  cursor: pointer;
+
+  .link {
+    text-decoration: none;
+    color: var(--darkColor);
+    border-bottom: 3px solid transparent;
+
+    &:hover {
+      border-bottom: 3px solid var(--darkColor);
+    }
+
+    &.active {
+      border-bottom: 3px solid var(--darkColor);
+    }
+  }
+}

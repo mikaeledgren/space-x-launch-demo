@@ -1,0 +1,31 @@
+.inverted .link-container .link {
+  color: white;
+}
+
+.inverted .link-container .link:hover {
+    border-bottom: 3px solid white;
+  }
+
+.inverted .link-container .link.active {
+    border-bottom: 3px solid white;
+  }
+
+.link-container {
+  margin: 0 0.5em;
+  padding: 0.1em 0 0.3em;
+  cursor: pointer;
+}
+
+.link-container .link {
+    text-decoration: none;
+    color: #051d32;
+    border-bottom: 3px solid transparent;
+  }
+
+.link-container .link:hover {
+      border-bottom: 3px solid #051d32;
+    }
+
+.link-container .link.active {
+      border-bottom: 3px solid #051d32;
+    }
