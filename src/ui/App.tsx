@@ -13,7 +13,6 @@ import logoWhite from './assets/spacex_logo_white.png';
 @observer
 class App extends Component {
   render() {
-    l.debug('app');
     const invert = routerStore.route.name === 'previous';
 
     invert

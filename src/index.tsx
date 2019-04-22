@@ -9,6 +9,4 @@ import l from './logic/Logger';
 
 appService.init();
 
-l.debug('index');
-
 ReactDOM.render(<App />, document.getElementById('root'));
